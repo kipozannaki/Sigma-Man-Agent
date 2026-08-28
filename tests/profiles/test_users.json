@@ -1,0 +1,39 @@
+{
+  "profiles": [
+    {
+      "id": "factory_worker_5k",
+      "label": "厂工月薪5k",
+      "annual_income_range": "6-8w",
+      "weights": {"finance": 0.45, "emotion": 0.20, "reproduction": 0.10, "reputation": 0.10, "legal": 0.15},
+      "risk_notes": "财务容错率极低，任何大额支出都可能致贫；建议口径侧重现金安全与债务隔离"
+    },
+    {
+      "id": "white_collar_20k",
+      "label": "白领月薪2w",
+      "annual_income_range": "25-30w",
+      "weights": {"finance": 0.30, "emotion": 0.30, "reproduction": 0.15, "reputation": 0.10, "legal": 0.15},
+      "risk_notes": "中等财务压力，情感质量与财务并重；建议口径可包含适度投入但要求透明度"
+    },
+    {
+      "id": "manager_100k",
+      "label": "经理月薪10w",
+      "annual_income_range": "100-150w",
+      "weights": {"finance": 0.25, "emotion": 0.20, "reproduction": 0.15, "reputation": 0.25, "legal": 0.15},
+      "risk_notes": "财务承受力强但职业声誉敏感度高；建议口径侧重名声风险与协议化安排"
+    },
+    {
+      "id": "executive_500k",
+      "label": "高管月薪50w",
+      "annual_income_range": "500w+",
+      "weights": {"finance": 0.30, "emotion": 0.10, "reproduction": 0.10, "reputation": 0.30, "legal": 0.20},
+      "risk_notes": "婚姻=公司治理级风险，婚前协议与财产架构优先级极高；建议口径必须包含法律工具"
+    },
+    {
+      "id": "founder_1m",
+      "label": "创业者年薪100w+",
+      "annual_income_range": "波动大/股权为主",
+      "weights": {"finance": 0.35, "emotion": 0.10, "reproduction": 0.10, "reputation": 0.20, "legal": 0.25},
+      "risk_notes": "股权与债务连带是命门，伴侣签字/担保行为需零容忍；建议口径侧重债务防火墙"
+    }
+  ]
+}

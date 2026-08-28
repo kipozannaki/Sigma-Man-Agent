@@ -1,0 +1,22 @@
+# 敏感配置（真实密钥严禁入库）
+config/.env
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# 向量库本地数据（可通过构建脚本重建）
+data/vector_db/
+
+# 测试与运行日志
+tests/redteam/last_report.json
+*.log
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
